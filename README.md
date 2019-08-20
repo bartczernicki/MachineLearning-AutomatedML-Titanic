@@ -33,3 +33,14 @@ This walkthrough demonstrates how-to build an binary classifier (classification 
 ## Intended Audience ##
 
 This lab is intended for aspiring AI professionals that would like to learn more about the basics of machine learning, Auzre ML or are interested in the AutoML paradigm implemented using Automated ML.
+
+
+### Task 1: Create a new Azure ML Experiment & Automed ML Experiment ###
+
+1. Download the **Titanic Data set (CSV)** that are located in the Data directory in this repository:
+https://github.com/bartczernicki/MachineLearning-AutomatedML-Titanic
+
+2. Navigate to the main Azure portal **https://portal.azure.com** and sign-in.  After signing-in, select **Create a resource** from the top-left menu option.  Type in **Azure Machine Learning** in the Search the Marketplace search dialog and then click the enter button.  A dialog (shown below) will appear.  Select the **Create** button.
+<p align="center">
+  <img src="https://github.com/bartczernicki/MachineLearning-AutomatedML-Titanic/master/WalkthroughImages/AutomatedML-CreateWorkspace.png">
+</p>
