@@ -97,7 +97,7 @@ https://github.com/bartczernicki/MachineLearning-AutomatedML-Titanic
 
 11. Additional storage information is filled in and will be created.  Notice that there is an **Upload** button on the bottom right.  Click the **Upload** button and select the **TitanicDataSet.csv** file.  After this is uploaded, select the file (shown in the screenshot below).
 <p align="center">
-  <img src="https://github.com/bartczernicki/MachineLearning-AutomatedML-Titanic/blob/master/WalkthroughImages/AutomatedML-CreateExperimentSelectDataSet.png">
+  <img width=800 height=305 src="https://github.com/bartczernicki/MachineLearning-AutomatedML-Titanic/blob/master/WalkthroughImages/AutomatedML-CreateExperimentSelectDataSet.png">
 </p>
 
 12. The CSV schema and the names (using the top row) of the Titanic data set is inferred.  You can now configure the data & the experiment further.  In machine learning, as a general rule you will want to remove columns that do not have any predictive power.  Columns like ID columns, names or unique idenitifiers (i.e. receipt numbers) are poor choices for ML models.  In the dialog, select the radio button and remove the following three columns:
