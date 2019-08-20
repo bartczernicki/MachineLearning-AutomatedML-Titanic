@@ -61,7 +61,7 @@ https://github.com/bartczernicki/MachineLearning-AutomatedML-Titanic
 
 6. Brand new Azure ML service workspaces will have no experiments and shown the dialog below.  Click the **Create experiment** button (screenshot shown below)
 <p align="center">
-  <img src="https://github.com/bartczernicki/MachineLearning-AutomatedML-Titanic/blob/master/WalkthroughImages/AutomatedML-CreateExperiment.png">
+  <img width=700 height=257 src="https://github.com/bartczernicki/MachineLearning-AutomatedML-Titanic/blob/master/WalkthroughImages/AutomatedML-CreateExperiment.png">
 </p>
 
 
