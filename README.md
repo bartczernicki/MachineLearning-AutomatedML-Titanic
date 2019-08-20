@@ -70,3 +70,26 @@ https://github.com/bartczernicki/MachineLearning-AutomatedML-Titanic
 <p align="center">
   <img src="https://github.com/bartczernicki/MachineLearning-AutomatedML-Titanic/blob/master/WalkthroughImages/AutomatedML-CreateExperimentDialog.png">
 </p>
+
+8. The "Create a New Compute" Dialog will appear.  Fill out the following information (screenshot shown below):
+- In the Name field, fill out the name of the compute.  In this example, the name **demoCompute** is shown.
+- Select the **STANDARD_D1_V2--..."** compute option.  This compute will be run on a VM with 1 vCPU core & 3.5gig of memory.  This is plenty for the small Titanic CSV data set.
+- Expand the **Additional Settings** options
+- Change the **Maximum number of nodes** from 6 to 1.  This will prevent from more than a single VM being created when the compute is being used.
+- When finished, select the **Create** button.
+<p align="center">
+  <img src="https://github.com/bartczernicki/MachineLearning-AutomatedML-Titanic/blob/master/WalkthroughImages/AutomatedML-CreateANewCompute.png">
+</p>
+
+
+9. The compute will take several minutes to complete.  When creating the compute, the dialog will appear similar to the dialog below.
+<p align="center">
+  <img src="https://github.com/bartczernicki/MachineLearning-AutomatedML-Titanic/blob/master/WalkthroughImages/AutomatedML-CreatingANewCompute.png">
+</p>
+
+
+10. After the compute has finished provisioning, you will be taken back to the "Create a new automated machine learning experiment" dialog.  Notice that the compute dropdown is now filled in with the name provided in step #8.  In this example, that was "demoCompute".  Click the **Next** button to proceed.
+<p align="center">
+  <img src="https://github.com/bartczernicki/MachineLearning-AutomatedML-Titanic/blob/master/WalkthroughImages/AutomatedML-CreateExperimentDialog2.png">
+</p>
+
