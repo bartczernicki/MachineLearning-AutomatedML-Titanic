@@ -79,7 +79,7 @@ https://github.com/bartczernicki/MachineLearning-AutomatedML-Titanic
 - Change the **Maximum number of nodes** from 6 to 1.  This will prevent from more than a single VM being created when the compute is being used.
 - When finished, select the **Create** button.
 <p align="center">
-  <img src="https://github.com/bartczernicki/MachineLearning-AutomatedML-Titanic/blob/master/WalkthroughImages/AutomatedML-CreateANewCompute.png">
+  <img width=800 height=684 src="https://github.com/bartczernicki/MachineLearning-AutomatedML-Titanic/blob/master/WalkthroughImages/AutomatedML-CreateANewCompute.png">
 </p>
 
 
