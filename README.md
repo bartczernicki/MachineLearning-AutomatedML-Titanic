@@ -3,7 +3,8 @@
 Azure (Azure Portal) Automated ML walkthrough using the Titanic Dataset
 
 
-![Cognitive Services UI Demo](https://github.com/bartczernicki/ImageClassificationStateLicenses/blob/master/WalkthroughImages/CustomVision-WalkthroughCognitiveServices.png)
+![Titanic Picture](
+![Cognitive Services UI Demo](https://github.com/bartczernicki/ImageClassificationStateLicenses/blob/master/WalkthroughImages/CustomVision-WalkthroughCognitiveServices.png))
 
 <a name="Overview"></a>
 ## Overview ##
