@@ -93,3 +93,9 @@ https://github.com/bartczernicki/MachineLearning-AutomatedML-Titanic
   <img src="https://github.com/bartczernicki/MachineLearning-AutomatedML-Titanic/blob/master/WalkthroughImages/AutomatedML-CreateExperimentDialog2.png">
 </p>
 
+
+11. Additional storage information is filled in and will be created.  Notice that there is an **Upload** button on the bottom right.  Click the **Upload** button and select the **TitanicDataSet.csv** file.  After this is uploaded, select the file (shown in the screenshot below).
+<p align="center">
+  <img src="https://github.com/bartczernicki/MachineLearning-AutomatedML-Titanic/blob/master/WalkthroughImages/AutomatedML-CreateExperimentUpload.png">
+</p>
+
