@@ -25,6 +25,7 @@ This walkthrough demonstrates how-to build an binary classifier (classification 
 <a name="Prerequisites"></a>
 ## Prerequisites ##
 
+- Make yourself familiar with the Titanic experiment.  For an interactive demo, navigate to: https://demos.datasciencedojo.com/demo/titanic/
 - An active internet connection & a browser
 - An Azure subscription is **REQUIRED**.  However, you can use ANY Azure subscription type (free trial, MSDN, Enterprise etc.) that you have access to.
 - Access to the main Azure portal
@@ -99,11 +100,10 @@ https://github.com/bartczernicki/MachineLearning-AutomatedML-Titanic
   <img src="https://github.com/bartczernicki/MachineLearning-AutomatedML-Titanic/blob/master/WalkthroughImages/AutomatedML-CreateExperimentSelectDataSet.png">
 </p>
 
-12. The CSV schema and the names (using the top row) of the Titanic data set is inferred.  You can now configure the data & the experiment further.  In machine learning, as a general rule you will want to remove columns that do not have any predictive power.  Columns like ID columns, names or unique idenitifiers (i.e. receipt numbers) are poor choices for ML models.  In the dialog, select the radio button and remove the following columns:
+12. The CSV schema and the names (using the top row) of the Titanic data set is inferred.  You can now configure the data & the experiment further.  In machine learning, as a general rule you will want to remove columns that do not have any predictive power.  Columns like ID columns, names or unique idenitifiers (i.e. receipt numbers) are poor choices for ML models.  In the dialog, select the radio button and remove the following three columns:
 - PASSENGERID
 - NAME
 - TICKET
-- FARE
 
 13. Below in the same dialog, in the **Target Column** you want to select the column that you want to predict in the experiment.  In this experiment, you want to predict survival of the Titanic.  Therefore, select the **Survived** column.
 
