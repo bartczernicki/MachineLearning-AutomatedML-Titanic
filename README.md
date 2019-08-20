@@ -42,5 +42,5 @@ https://github.com/bartczernicki/MachineLearning-AutomatedML-Titanic
 
 2. Navigate to the main Azure portal **https://portal.azure.com** and sign-in.  After signing-in, select **Create a resource** from the top-left menu option.  Type in **Azure Machine Learning** in the Search the Marketplace search dialog and then click the enter button.  A dialog (shown below) will appear.  Select the **Create** button.
 <p align="center">
-  <img src="https://github.com/bartczernicki/MachineLearning-AutomatedML-Titanic/blob/master/WalkthroughImages/AutomatedML-CreateExperiment.png">
+  <img src="https://github.com/bartczernicki/MachineLearning-AutomatedML-Titanic/blob/master/WalkthroughImages/AutomatedML-CreateWorkspace.png">
 </p>
