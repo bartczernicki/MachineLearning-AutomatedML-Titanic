@@ -7,7 +7,7 @@ Azure (Azure Portal) Automated ML walkthrough using the Titanic Dataset
 
 <a name="Overview"></a>
 ## Overview ##
-**Microsoft Automated ML** allows non-professional data scientists build various types of custom machine learning models using a wizard-driven approach of selecting declerative configuration options and allowing the Automated ML engine to perform all of the complex ML tasks (i.e. pre-processing, algorithm selection, hyperparameter tuning, ensembling, code generation) behind the scenes largely hidden from the user.
+**Microsoft Automated ML** allows non-professional data scientists (aka "citizen data scientists") to build various types of custom machine learning models using a wizard-driven approach of selecting declerative configuration options and allowing the Automated ML engine to perform all of the complex ML tasks (i.e. pre-processing, algorithm selection, hyperparameter tuning, ensembling, code generation, model conversion/export, deployment) all behind the scenes and largely hidden from the user.
 
 This walkthrough demonstrates how-to build an binary classifier (classification model) using Microsoft Automated ML.  This walkthrough includes step by step instructions using the Azure portal & the Azure Machine Learning service; requiring zero code.
 
@@ -19,6 +19,7 @@ This walkthrough demonstrates how-to build an binary classifier (classification 
 - Upload the Titanic data set (small CSV file)
 - Configure the Automated ML experiment
 - Evaluate the Performance of the image classifier
+- Evaluate operationalization options (model export, deployment)
 - Next Steps
 
 <a name="Prerequisites"></a>
