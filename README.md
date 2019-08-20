@@ -96,6 +96,37 @@ https://github.com/bartczernicki/MachineLearning-AutomatedML-Titanic
 
 11. Additional storage information is filled in and will be created.  Notice that there is an **Upload** button on the bottom right.  Click the **Upload** button and select the **TitanicDataSet.csv** file.  After this is uploaded, select the file (shown in the screenshot below).
 <p align="center">
-  <img src="https://github.com/bartczernicki/MachineLearning-AutomatedML-Titanic/blob/master/WalkthroughImages/AutomatedML-CreateExperimentUpload.png">
+  <img src="https://github.com/bartczernicki/MachineLearning-AutomatedML-Titanic/blob/master/WalkthroughImages/AutomatedML-CreateExperimentSelectDataSet.png">
 </p>
+
+12. The CSV schema and the names (using the top row) of the Titanic data set is inferred.  You can now configure the data & the experiment further.  In machine learning, as a general rule you will want to remove columns that do not have any predictive power.  Columns like ID columns, names or unique idenitifiers (i.e. receipt numbers) are poor choices for ML models.  In the dialog, select the radio button and remove the following columns:
+- PASSENGERID
+- NAME
+- TICKET
+- FARE
+
+13. Below in the same dialog, in the **Target Column** you want to select the column that you want to predict in the experiment.  In this experiment, you want to predict survival of the Titanic.  Therefore, select the **Survived** column.
+
+14. In the same dialog, expand the **Advanced Settings** options.  Automated ML can run many iterations over several hours or days.  However, for this experiment we will want to get quick results.  Therefore, change the following settings:
+- Change **Training job time (minutes)** to 4 (4 minutes)
+- Change **Max number of iterations** to 10 (10 iterations)
+Note: Whichever occurs first (training time or max iterations) will cause the experiment job to terminate first.
+(Screenshot below shows the complete setting in steps #11 - #14)
+<p align="center">
+  <img src="https://github.com/bartczernicki/MachineLearning-AutomatedML-Titanic/blob/master/WalkthroughImages/AutomatedML-CreateExperimentPreview.png">
+</p>
+
+
+15. Click the **Start** button to start the experiment job.  This will take up to 15 minutes to complete. Why does it take so long?
+- Compute VMs leverage cloud elasticity and are started/stopped as appropriate when they are used.  Therefore, on first use the VM needs to be provisioned/started.
+- For first time use, the VM needs to be configured with the Azure ML SDK & data science software
+- The data set is copied (cached locally)
+- The experiment scripts are generated and then deployed/executed on the compute VM
+- During the experiment run, the experiment job is monitored actively to track logs/metrics
+Note: Advanced options exist that allow the VM(s) to be always warm ready and reducing the prep time.
+
+16. Click the **<- Back** button.  Notice (screenshot shown below) that the experiment is in the preparing state.  This will exist in this state for about 8-10 minutes.
+
+17. When the experiment completes, it will be in the **Completed** state.  Click the link below the **RUN ID** column to go into the details of the experiment run.
+
 
