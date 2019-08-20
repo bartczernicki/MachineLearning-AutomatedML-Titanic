@@ -146,3 +146,17 @@ Note: Advanced options exist that allow the VM(s) to be always warm ready and re
   <img width=800 height=378 src="https://github.com/bartczernicki/MachineLearning-AutomatedML-Titanic/blob/master/WalkthroughImages/AutomatedML-RunDetailModel.png">
 </p>
 
+3. You can deploy the "best model" (which is the the model that has the highest-rated performance metric) by clicking the blue **Deploy Best Model** button on the top-right.  This will bring up the **Depoly Best Model** dialog (shown below).  Fill in the following information:
+- Name of the deployment (needs to be all lowercase up to 16 characters).  In this example, the name **titanic-survival** is used.
+- In the description, feel free to put in any description for this deployment.  As a best practice, you want to describe the service and what it does.
+- Ensure the Scoring & Environment Script radio buttons are both turned on.  This ensures the service will have all it needs to be ready to be consumed by a RESTful client.
+<p align="center">
+  <img width=800 height=676 src="https://github.com/bartczernicki/MachineLearning-AutomatedML-Titanic/blob/master/WalkthroughImages/AutomatedML-DeployBestModel.png">
+</p>
+
+
+
+### Task 3: Next Steps ###
+
+1. For consuming the model & REST service, navigate the browser to:
+https://docs.microsoft.com/en-us/azure/machine-learning/service/how-to-consume-web-service
