@@ -52,7 +52,7 @@ https://github.com/bartczernicki/MachineLearning-AutomatedML-Titanic
   <img src="https://github.com/bartczernicki/MachineLearning-AutomatedML-Titanic/blob/master/WalkthroughImages/AutomatedML-DeploymentOnYourWay.png">
 </p>
 
-4. After the deployment finishes, you will see a dialog (screenshot shown below) letting you knowthe deployment of the workspace has finished.  Click the **Go to resource** button to go to the Azure ML Workspace.
+4. After the deployment finishes, you will see a dialog (screenshot shown below) letting you know the deployment of the workspace has finished.  Click the **Go to resource** button to go to the Azure ML Workspace.
 
 5. The Azure Machine Learning service consists of a portfolio of machine learning services.  In the Authoring group, select the **Automated machine learning** option to continute onto that service (screenshot shown below)
 <p align="center">
