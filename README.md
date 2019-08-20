@@ -56,7 +56,7 @@ https://github.com/bartczernicki/MachineLearning-AutomatedML-Titanic
 
 5. The Azure Machine Learning service consists of a portfolio of machine learning services.  In the Authoring group, select the **Automated machine learning** option to continute onto that service (screenshot shown below)
 <p align="center">
-  <img src="https://github.com/bartczernicki/MachineLearning-AutomatedML-Titanic/blob/master/WalkthroughImages/AutomatedML-SelectAutomatedMachineLearning.png">
+  <img width=800 height=517 src="https://github.com/bartczernicki/MachineLearning-AutomatedML-Titanic/blob/master/WalkthroughImages/AutomatedML-SelectAutomatedMachineLearning.png">
 </p>
 
 6. Brand new Azure ML service workspaces will have no experiments and shown the dialog below.  Click the **Create experiment** button (screenshot shown below)
