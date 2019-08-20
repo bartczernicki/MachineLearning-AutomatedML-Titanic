@@ -113,7 +113,7 @@ https://github.com/bartczernicki/MachineLearning-AutomatedML-Titanic
 Note: Whichever occurs first (training time or max iterations) will cause the experiment job to terminate first.
 (Screenshot below shows the complete setting in steps #11 - #14)
 <p align="center">
-  <img src="https://github.com/bartczernicki/MachineLearning-AutomatedML-Titanic/blob/master/WalkthroughImages/AutomatedML-CreateExperimentPreview.png">
+  <img width=800 height=707 src="https://github.com/bartczernicki/MachineLearning-AutomatedML-Titanic/blob/master/WalkthroughImages/AutomatedML-CreateExperimentPreview.png">
 </p>
 
 
