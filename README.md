@@ -91,7 +91,7 @@ https://github.com/bartczernicki/MachineLearning-AutomatedML-Titanic
 
 10. After the compute has finished provisioning, you will be taken back to the "Create a new automated machine learning experiment" dialog.  Notice that the compute dropdown is now filled in with the name provided in step #8.  In this example, that was "demoCompute".  Click the **Next** button to proceed.
 <p align="center">
-  <img width=800 height=684 src="https://github.com/bartczernicki/MachineLearning-AutomatedML-Titanic/blob/master/WalkthroughImages/AutomatedML-CreateExperimentDialog2.png">
+  <img width=800 height=323 src="https://github.com/bartczernicki/MachineLearning-AutomatedML-Titanic/blob/master/WalkthroughImages/AutomatedML-CreateExperimentDialog2.png">
 </p>
 
 
