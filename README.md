@@ -134,3 +134,15 @@ Note: Advanced options exist that allow the VM(s) to be always warm ready and re
 17. When the experiment completes, it will be in the **Completed** state.  Click the link below the **RUN ID** column to go into the details of the experiment run.
 
 
+### Task 2: Explore the finished experiment ###
+
+1. Automated ML has completed the experiment with multiple models being built as well as a "final" model using an ensemble technique that combines multiple models into a single model enhancing perdictive power.  The created models and their associated performance metrics are shown in the grid below.  Notice that you can also download the best models as well as deploy them.  Click the **VotingEnsemble** link from the grid below.
+<p align="center">
+  <img width=800 height=353 src="https://github.com/bartczernicki/MachineLearning-AutomatedML-Titanic/blob/master/WalkthroughImages/AutomatedML-RunDetail.png">
+</p>
+
+2. In this dialog, you are taken to more advanced analysis, performance metrics & graphs.
+<p align="center">
+  <img width=800 height=378 src="https://github.com/bartczernicki/MachineLearning-AutomatedML-Titanic/blob/master/WalkthroughImages/AutomatedML-RunDetailModel.png">
+</p>
+
