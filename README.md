@@ -44,3 +44,26 @@ https://github.com/bartczernicki/MachineLearning-AutomatedML-Titanic
 <p align="center">
   <img src="https://github.com/bartczernicki/MachineLearning-AutomatedML-Titanic/blob/master/WalkthroughImages/AutomatedML-CreateWorkspace.png">
 </p>
+
+
+3. After selecting to create the workspace, it will take a several seconds (up to a minute or so) to create the workspace.  You will notice the image below as the workspace is being created.
+<p align="center">
+  <img src="https://github.com/bartczernicki/MachineLearning-AutomatedML-Titanic/blob/master/WalkthroughImages/AutomatedML-DeploymentOnYourWay.png">
+</p>
+
+4. After the deployment finishes, you will see a dialog (screenshot shown below) letting you knowthe deployment of the workspace has finished.  Click the **Go to resource** button to go to the Azure ML Workspace.
+
+5. The Azure Machine Learning service consists of a portfolio of machine learning services.  In the Authoring group, select the **Automated machine learning** option to continute onto that service (screenshot shown below)
+<p align="center">
+  <img src="https://github.com/bartczernicki/MachineLearning-AutomatedML-Titanic/blob/master/WalkthroughImages/AutomatedML-SelectAutomatedMachineLearning.png">
+</p>
+
+6. Brand new Azure ML service workspaces will have no experiments and shown the dialog below.  Click the **Create experiment** button (screenshot shown below)
+<p align="center">
+  <img src="https://github.com/bartczernicki/MachineLearning-AutomatedML-Titanic/blob/master/WalkthroughImages/AutomatedML-CreateExperiment.png">
+</p>
+
+
+7. You will now be shown a Create experiment dialog (screenshot shown below)
+- In the Name area, fill in the name of the experiment.  In this example, the name **TitanicSurvivalClassifier** was used.
+- If you do not have provisioned ML compute, select the **Create a new compute** link.
