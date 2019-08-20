@@ -127,7 +127,7 @@ Note: Advanced options exist that allow the VM(s) to be always warm ready and re
 
 16. Click the **<- Back** button.  Notice (screenshot shown below) that the experiment is in the preparing state.  This will exist in this state for about 8-10 minutes.
 <p align="center">
-  <img src="https://github.com/bartczernicki/MachineLearning-AutomatedML-Titanic/blob/master/WalkthroughImages/AutomatedML-CreateExperimentPreparing.png">
+  <img width=800 height=439 src="https://github.com/bartczernicki/MachineLearning-AutomatedML-Titanic/blob/master/WalkthroughImages/AutomatedML-CreateExperimentPreparing.png">
 </p>
 
 
