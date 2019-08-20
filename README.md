@@ -67,3 +67,6 @@ https://github.com/bartczernicki/MachineLearning-AutomatedML-Titanic
 7. You will now be shown a Create experiment dialog (screenshot shown below)
 - In the Name area, fill in the name of the experiment.  In this example, the name **TitanicSurvivalClassifier** was used.
 - If you do not have provisioned ML compute, select the **Create a new compute** link.
+<p align="center">
+  <img src="https://github.com/bartczernicki/MachineLearning-AutomatedML-Titanic/blob/master/WalkthroughImages/AutomatedML-CreateExperimentDialog.png">
+</p>
