@@ -126,6 +126,10 @@ Note: Whichever occurs first (training time or max iterations) will cause the ex
 Note: Advanced options exist that allow the VM(s) to be always warm ready and reducing the prep time.
 
 16. Click the **<- Back** button.  Notice (screenshot shown below) that the experiment is in the preparing state.  This will exist in this state for about 8-10 minutes.
+<p align="center">
+  <img src="https://github.com/bartczernicki/MachineLearning-AutomatedML-Titanic/blob/master/WalkthroughImages/AutomatedML-CreateExperimentPreparing.png">
+</p>
+
 
 17. When the experiment completes, it will be in the **Completed** state.  Click the link below the **RUN ID** column to go into the details of the experiment run.
 
